@@ -1,0 +1,102 @@
+.App{
+  background-color:#F5F5F5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.body {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+span {
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  max-width: 400px;
+ 
+}
+
+button {
+  width: 100%;
+  max-width: 400px;
+  background-color: #D9D9D9;
+  box-shadow: 0 5px  0 rgba(0,0,0,0.2);
+}
+button:hover {
+  width: 100%;
+  max-width: 400px;
+  background-color: #D9D9D9;
+  box-shadow: 0 5px  0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:active {
+  background-color: #b1adad;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+.start {
+  display: flex;
+  justify-content: flex-start !important;
+  height: 100%;
+   
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 20px;
+}
+
+button {
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.all-cards {
+  overflow-y: scroll;
+  height: 500px;
+  overflow-x: hidden;
+  max-width: 400px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.comment {
+  word-wrap: break-word;
+  padding: 10px 50px 10px 10px;
+}
+.card-button {
+  min-width: 100px;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+
+
+.line{
+    width: 1px;
+    background-color: black;
+    height:600px;
+    margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+    .line{
+        display: none;
+    }
+}
